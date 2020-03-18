@@ -101,10 +101,10 @@ margin-top: 20px;
 
 
 
-/*.inline-block{
-    background-color: yellow; /*задний фон желтый*/
-    padding: 10px;/*отступ от текста до краев*/
-    width: 50px;/*ширина элемента*/
-    text-align: right;/*выравнивание текста по правую сторону*/
-    margin-bottom: 10px;/*отступ между елементами*/
+/*.inline-block {
+    background-color: yellow; // задний фон желтый
+    padding: 10px; // отступ от текста до краев
+    width: 50px; // ширина элемента
+    text-align: right; // выравнивание текста по правую сторону
+    margin-bottom: 10px; // отступ между елементами
 }*/
