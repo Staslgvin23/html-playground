@@ -1,105 +1,99 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    min-width: 1000px; 
-    font-family: Arial;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1000px;
+  font-family: Arial;
 }
 
 h2 {
-    font-size: 20px;
-    padding: 27px 0 27px 18px;
-    margin: 0 0 27px;
-    border-bottom: 1px solid #e5e5e5; /*задается в таком порядке как толщина границы, ее стиль и цвет*/
-
+  font-size: 20px;
+  padding: 27px 0 27px 18px;
+  margin: 0 0 27px;
+  border-bottom: 1px solid #e5e5e5; /*задается в таком порядке как толщина границы, ее стиль и цвет */
 }
 
 #black-bar {
-background-color:black;
-color: white;
-padding: 20px 0;
-
+  background-color: black;
+  color: white;
+  padding: 20px 0;
 }
+
 #black-bar a {
-    color: white;
+  color: white;
 }
-.fixed-container{
-    width: 960px;
-    margin: 0 auto;/*выравнивание по центру, 0 - верх и низ, авто - это левая и правая сторона*/
+
+.fixed-container {
+  width: 960px;
+  margin: 0 auto; /*выравнивание по центру, 0 - верх и низ, авто - это левая и правая сторона*/
 }
-#datetime{
-float: right;
+
+#datetime {
+  float: right;
 }
-#header{
-    height: 100px;
+
+header {
+  height: 100px;
 }
-#logo{
-height: 100px;
-width: 100px;
-margin-top: 40px;
+
+#logo {
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
 }
-#header img{
-    width: 50px;
-    height: 50px;
-    margin-top: 20px;
+header img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
 }
+
 .menu-nav {
-text-align: right;
-margin-bottom: 20px;
-}
-span{
-    margin-right: 50px;
-}
-#column-left{
-background-color: #ffffff;
-width: 250px;
-float: left;
-margin-top: 20px;
-}
-#column-center{
-background-color: green;
-width: 420px;
-margin-left: 20px;
-float: left;
-margin-top: 20px;
-}
-#central-container .fixed-container{
-    overflow-y: hidden;
-}
-#central-container{
-    background-color: rgb(249,249,249);
-}
-#column-right{
-width: 250px;
-float: right;
-margin-top: 20px;
-
-}
-#column-righr img{
-    height: 400px;
-    width: 250px;
-    margin-bottom: 20px;
-}
-#special-news{
-    margin-top: 20px;
+  text-align: right;
+  margin-bottom: 20px;
 }
 
+span {
+  margin-right: 50px;
+}
 
+#column-left {
+  background-color: #ffffff;
+  width: 250px;
+  float: left;
+  margin-top: 20px;
+}
 
+#column-center {
+  background-color: green;
+  width: 420px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 20px;
+}
 
+#central-container .fixed-container {
+  overflow-y: hidden;
+}
 
+#central-container {
+  background-color: rgb(249, 249, 249);
+}
 
+#column-right {
+  width: 250px;
+  float: right;
+  margin-top: 20px;
+}
 
+#column-righr img {
+  height: 400px;
+  width: 250px;
+  margin-bottom: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
+#special-news {
+  margin-top: 20px;
+}
 
 /*.inline-block {
     background-color: yellow; // задний фон желтый
