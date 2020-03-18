@@ -6,30 +6,72 @@ body {
   font-family: Arial;
 }
 
+.black-bar {
+    background-color: #020292;
+    color: white;
+    padding: 10px 0;
+}
+
+.black-bar a {
+    color: white;
+}
+
+.fixed-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.create-sides {
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+
+header {
+    background: #fff;
+}
+
+header .top-navigation {
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+nav a {
+    color: #949494;
+}
+
+.spacer-element {
+    margin: 0 10px;
+}
+
+main {
+    background: #dfdfdf;
+    min-height: 400px;
+}
+
+/* 
 h2 {
   font-size: 20px;
   padding: 27px 0 27px 18px;
   margin: 0 0 27px;
-  border-bottom: 1px solid #e5e5e5; /*задается в таком порядке как толщина границы, ее стиль и цвет */
-}
-
-#black-bar {
-  background-color: black;
-  color: white;
-  padding: 20px 0;
-}
-
-#black-bar a {
-  color: white;
+  border-bottom: 1px solid #e5e5e5; // задается в таком порядке как толщина границы, ее стиль и цвет
 }
 
 .fixed-container {
   width: 960px;
-  margin: 0 auto; /*выравнивание по центру, 0 - верх и низ, авто - это левая и правая сторона*/
-}
-
-#datetime {
-  float: right;
+  margin: 0 auto; // выравнивание по центру, 0 - верх и низ, авто - это левая и правая сторона
 }
 
 header {
@@ -93,12 +135,14 @@ span {
 
 #special-news {
   margin-top: 20px;
-}
+} */
 
-/*.inline-block {
+
+
+/* .inline-block {
     background-color: yellow; // задний фон желтый
     padding: 10px; // отступ от текста до краев
     width: 50px; // ширина элемента
     text-align: right; // выравнивание текста по правую сторону
     margin-bottom: 10px; // отступ между елементами
-}*/
+} */
